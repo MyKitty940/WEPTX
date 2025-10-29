@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE EDUKASI PERALATAN TRANSMISI</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="img/Logo WEPTX Putih.png" alt="Logo WEPTX">
+        </div>
+        <nav class="menu">
+            <a href="index.html">BERANDA</a>
+            <a href="Materi.html">PERALATAN</a>
+            <a href="Tentang.html">TENTANG</a>
+            <a href="Kontak.html">KONTAK</a>
+        </nav>
+        <div class="login-logo">
+            <img src="img/Logo TVRI.png" alt="Logo Kanan">
+        </div>
+    </header>
+<section class="materi">
+    <h1>Daftar Peralatan Transmisi</h1>
+
+    <p class="intro-materi">Jelajahi peralatan transmisi sesuai urutan kerjanya: dimulai dari proses penerimaan sinyal satelit, pengolahan data program, hingga tahap modulasi sinyal siap pancar</p>
+    <div class="materi-container">
+        <div class="materi-card">
+            <details>
+                <summary>
+                    <h3>LNB</h3>
+                    <img src="img/LNB Alat.png" alt="Gambar LNB">
+                    <h5>Klik untuk Detail</h5>
+                </summary>
+                <div class="detail-content">
+                    <p>Menerima sinyal frekuensi tinggi yang sangat lemah dari satelit, menguatkannya, dan mengubah frekuensinya menjadi L-Band agar dapat ditransmisikan melalui kabel koaksial ke IRD di ruang pemancar.</p>
+                    <a href="LNB.html" class="btn-detail">LIHAT LENGKAP</a>
+                </div>
+            </details>
+        </div>
+
+        <div class="materi-card">
+            <details>
+                <summary>
+                    <h3>IRD</h3>
+                    <img src="img/IRD Harmonic Prostream.png" alt="Gambar IRD">
+                    <h5>Klik untuk detail</h5>
+                </summary>
+                <div class="detail-content">
+                    <p>Berfungsi mengambil sinyal Transport Stream (TS) dari satelit, mendekripsi, dan mendekode sinyal tersebut menjadi sinyal video dan audio mentah (baseband) yang siap diolah lebih lanjut.</p>
+                <a href="IRD.html" class="btn-detail">LIHAT LENGKAP</a>
+                </div>
+            </details>
+        </div>
+        
+        <div class="materi-card">
+            <details>
+                <summary>
+                    <h3>ENCODER</h3>
+                    <img src="img/ENCODER Harmonic.png" alt="Gambar ENCODER">
+                    <h5>Klik untuk detail</h5>
+                </summary>
+                <div class="detail-content">
+                    <p>Mengambil sinyal video dan audio mentah dari IRD, mengompresinya (MPEG), dan mengubahnya menjadi aliran data digital yang efisien (Elementary Stream) untuk ditransmisikan.</p>
+                    <a href="ENCODER.html" class="btn-detail">LIHAT LENGKAP</a>
+                </div>
+            </details>
+        </div>
+        
+        <div class="materi-card">
+            <details>
+                <summary>
+                    <h3>MUX</h3>
+                    <img src="img/MUX Harmonic.png" alt="Gambar MUX">
+                    <h5>Klik untuk detail</h5>
+                </summary>
+                <div class="detail-content">
+                    <p>Menggabungkan semua aliran data (Elementary Stream) dari berbagai program dan layanan, menyusunnya menjadi satu Aliran Transport Stream (TS) tunggal yang stabil.</p>
+                    <a href="MUX.html" class="btn-detail">LIHAT LENGKAP</a>
+                </div>
+            </details>
+        </div>
+
+        <div class="materi-card">
+            <details>
+                <summary>
+                    <h3>EXCITER</h3>
+                    <img src="img/EXCITER.png" alt="Gambar MUX">
+                    <h5>Klik untuk Details</h5>
+                </summary>
+                <div class="detail-content">
+                    <p>Mengambil Transport Stream digital dari MUX dan memodulasikannya ke gelombang frekuensi radio (RF) berdaya rendah, menciptakan sinyal siaran digital yang siap diperkuat.</p>
+                    <a href="EXCITER.html" class="btn-detail">LIHAT LENGKAP</a>
+                </div>
+            </details>
+        </div>
+
+        <div class="materi-card">
+            <details>
+                <summary>
+                    <h3>POWER AMPLIFIER</h3>
+                    <img src="img/Power Amplifier.png" alt="Gambar POWER AMPLIFIER">
+                    <h5>Klik untuk Detail</h5>
+                </summary>
+                <div class="detail-content">
+                    <p>Meningkatkan daya sinyal RF berdaya rendah dari Exciter menjadi sinyal bertenaga tinggi (kW) yang dibutuhkan untuk jangkauan siaran luas.</p>
+                    <a href="POWER AMPLIFIER.html" class="btn-detail">LIHAT LENGKAP</a>
+                </div>
+            </details>
+        </div>
+
+        <div class="materi-card">
+            <details>
+                <summary>
+                    <h3>ANTENNA PEMANCAR</h3>
+                    <img src="img/Antenna Pemancar.png" alt="Gambar ANTENNA PEMANCAR">
+                    <h5>Klik untuk Detail</h5>
+                </summary>
+                <div class="detail-content">
+                    <p>Gerbang akhir transmisi yang meradiasikan sinyal RF berdaya tinggi dari Power Amplifier ke atmosfer sebagai gelombang elektromagnetik siaran.</p>
+                    <a href="ANTENA PEMANCAR.html" class="btn-detail">LIHAT LENGKAP</a>
+                </div>
+            </details>
+        </div>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>&copy; 2025 WEPTX - Website Edukasi Peralatan Transmisi</p>
+    <p>Made by Samuel Richie</p>
+</footer>
+</body>

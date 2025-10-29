@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE EDUKASI PERALATAN TRANSMISI</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="img/Logo WEPTX Putih.png" alt="Logo WEPTX">
+        </div>
+        <nav class="menu">
+            <a href="index.html">BERANDA</a>
+            <a href="Materi.html">PERALATAN</a>
+            <a href="Tentang.html">TENTANG</a>
+            <a href="Kontak.html">KONTAK</a>
+        </nav>
+        <div class="login-logo">
+            <img src="img/Logo TVRI.png" alt="Logo Kanan">
+        </div>
+    </header>
+
+    <section class="detail-materi">
+        <h1>LNB (Low Noise Block Converter)</h1>
+        <p class="Tagline">Penerima Sinyal & Pengubah Frekuensi Sinyal</p>
+
+        <div class="alat-visual">
+            <img src="img/LNB Alat.png" alt="Gambar LNB" class="gambar-alat">
+        </div>
+
+        <h2>Fungsi</h2>
+        <div class="narasi-teks">
+            <p><strong>LNB (Low Noise Block downconverter)</strong>adalah komponen elektronik yang sangat penting dalam sistem penerimaan satelit. Meskipun sering dianggap sebagai "kepala" piringan parabola, LNB memiliki fungsi yang jauh lebih kompleks daripada sekadar menangkap sinyal. Sinyal yang dikirimkan dari satelit (yang berjarak ribuan kilometer) sangatlah lemah dan berada pada frekuensi ultra-tinggi (dalam orde Gigahertz/GHz—seperti C-Band atau Ku-Band)</p>
+            <p>Peran utama LNB adalah memastikan sinyal lemah ini tidak hilang saat dikirim ke Receiver atau IRD di dalam gedung. LNB melakukan dua tugas kritis: memperkuat sinyal tanpa menambah banyak gangguan (noise), dan yang terpenting, menurunkan frekuensi sinyal agar dapat melewati kabel koaksial biasa dengan aman dan efisien.</p>   
+        </div>
+
+        <h2>Prinsip Kerja (Cara Kerjanya)</h2>
+        <div class="narasi-teks">
+            <p>Cara kerja LNB adalah serangkaian proses yang mengubah karakteristik sinyal agar mudah diproses lebih lanjut:</p>
+            <ol>
+                <li><strong>Menerima sinyal Fokus:</strong> Sinyal elektromagnetik super lemah dari satelit ditangkap dan dipantulkan oleh piringan parabola, yang kemudian memfokuskannya tepat ke feedhorn LNB.</li>
+                <li><strong>Penguatan sinyal (Low Noise Amplifier):</strong> Sinyal yang masuk segera melewati LNA. LNA bertugas memperkuat sinyal yang lemah tersebut hingga ribuan kali lipat, sambil menjaga noise yang dihasilkan tetap sangat rendah.</li>
+                <li><strong>Penurunan Frekuensi (Downconversion):</strong> Sinyal yang kini berada pada frekuensi rendah (L-Band) dikirimkan melalui kabel koaksial ke IRD di ruang pemancar. Frekuensi yang lebih rendah ini memungkinkan transmisi jarak jauh melalui kabel biasa tanpa mengalami pelemahan yang signifikan.</li>
+                <li><strong>Transmisi:</strong> LNB menerima daya listriknya langsung melalui kabel koaksial dari Receiver atau IRD.</li>
+            </ol>
+        </div>
+        <div class="button-container">
+            <a href="Materi.html" class="btn">Kembali</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+<footer class="footer">
+    <p>&copy; 2025 WEPTX - Website Edukasi Peralatan Transmisi</p>
+    <p>Made by Samuel Richie</p>
+</footer>
+
+</body>
+</html>

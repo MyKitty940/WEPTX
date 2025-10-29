@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE EDUKASI PERALATAN TRANSMISI</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="img/Logo WEPTX Putih.png" alt="Logo WEPTX">
+        </div>
+        <nav class="menu">
+            <a href="index.html">BERANDA</a>
+            <a href="Materi.html">PERALATAN</a>
+            <a href="Tentang.html">TENTANG</a>
+            <a href="Kontak.html">KONTAK</a>
+        </nav>
+        <div class="login-logo">
+            <img src="img/Logo TVRI.png" alt="Logo Kanan">
+        </div>
+    </header>
+
+    <section class="detail-materi">
+        <h1>MUX (Multiplexer)</h1>
+        <p class="Tagline">Pusat penggabungan yang menyatukan aliran data dari berbagai program menjadi satu Transport Stream siaran digital tunggal.</p>
+
+        <div class="alat-visual">
+            <img src="img/MUX Harmonic.png" alt="Gambar MUX" class="gambar-alat">
+        </div>
+
+        <h2>Fungsi Utama</h2>
+        <div class="narasi-teks">
+            <p><strong>MUX (Multiplexer)</strong> adalah otak yang memungkinkan konsep siaran televisi digital (DTV). Berkat kompresi dari Encoder, MUX memungkinkan banyak program (layanan) untuk digabungkan dan ditransmisikan dalam satu frekuensi yang sama. Ini adalah kunci efisiensi spektrum frekuensi.</p>
+            <p>Fungsi utama MUX adalah menerima Elementary Stream terkompresi dari beberapa Encoder (misalnya, program utama, saluran berita, dan saluran musik) dan menyinkronkan serta menggabungkannya secara cerdas menjadi satu paket data berurutan yang disebut MPEG-2 Transport Stream. Paket data tunggal inilah yang akan dibawa oleh gelombang radio pemancar, siap dikirim ke Exciter.</p>
+        </div>
+
+        <h2>Prinsip Kerja</h2>
+        <div class="narasi-teks">
+            <p>MUX bekerja dengan mengatur dan menyusun ulang data:</p>
+            <ol>
+                <li><strong>Pengumpulan Aliran Data:</strong> MUX menerima Elementary Stream (ES) video dan audio dari setiap Encoder.</li>
+                <li><strong>Packetization:</strong> ES dari setiap program dipecah menjadi unit data kecil (paket) dan diberi header pengenal unik, yang disebut PID (Program Identification).</li>
+                <li><strong>Penggabungan dan Sinkronisasi:</strong> MUX kemudian secara bergantian menggabungkan paket-paket dari semua program ini menjadi satu aliran data yang berkelanjutan (Transport Stream).</li>
+                <li><strong>Penyisipan Metadata (PSI/SI)</strong> MUX menyisipkan tabel informasi penting (seperti PSI/SI—Program Specific Information/Service Information). Informasi ini krusial karena memberi tahu set-top box penonton program apa saja yang ada dan bagaimana cara memisahkannya kembali.</li>
+                <li><strong>Output Transport Stream:</strong> Hasilnya adalah Transport Stream (TS) digital tunggal yang memiliki bitrate stabil dan siap dikirim ke Exciter untuk dimodulasi.</li>
+            </ol>
+        </div>
+        <div class="button-container">
+            <a href="Materi.html" class="btn">Kembali</a>
+        </div>
+    </section>
+
+     <!-- Footer -->
+<footer class="footer">
+    <p>&copy; 2025 WEPTX - Website Edukasi Peralatan Transmisi</p>
+    <p>Made by Samuel Richie</p>
+</footer>
+</body>
+</html>

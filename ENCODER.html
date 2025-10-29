@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE EDUKASI PERALATAN TRANSMISI</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="img/Logo WEPTX Putih.png" alt="Logo WEPTX">
+        </div>
+        <nav class="menu">
+            <a href="index.html">BERANDA</a>
+            <a href="Materi.html">PERALATAN</a>
+            <a href="Tentang.html">TENTANG</a>
+            <a href="Kontak.html">KONTAK</a>
+        </nav>
+        <div class="login-logo">
+            <img src="img/Logo TVRI.png" alt="Logo Kanan">
+        </div>
+    </header>
+
+    <section class="detail-materi">
+        <h1>ENCODER</h1>
+        <p class="Tagline">Mengompres sinyal video mentah menjadi aliran data yang efisien untuk transmisi.</p>
+
+        <div class="alat-visual">
+            <img src="img/ENCODER Harmonic.png" alt="Gambar Encoder" class="gambar-alat">
+        </div>
+
+        <h2>Fungsi Utama</h2>
+        <div class="narasi-teks">
+            <p><strong>ENCODER</strong>adalah alat yang sangat penting untuk efisiensi siaran digital. Tanpa Encoder, sinyal video dan audio mentah yang berasal dari studio atau IRD akan memiliki ukuran data yang sangat besar (bisa mencapai Gigabit per detik) dan mustahil dikirim melalui bandwidth radio atau jaringan kabel yang terbatas.</p>
+            <P>Fungsi utamanya adalah menerapkan algoritma kompresi (misalnya, MPEG-2 atau H.264/AVC) untuk mengurangi ukuran data hingga puluhan atau bahkan ratusan kali lipat. Encoder mengubah sinyal baseband yang besar menjadi aliran bit digital yang kecil, terstruktur, dan siap untuk dimuat (modulasi) ke dalam spektrum frekuensi siaran. Kualitas Encoder sangat menentukan keseimbangan antara kualitas gambar (resolusi) dan efisiensi bandwidth.</P>
+        </div>
+
+        <h2>Prinsip Kerja</h2>
+        <div class="narasi-teks">
+            <p>Proses kerja Encoder adalah proses komputasi yang intensif, yang secara umum melibatkan langkah-langkah berikut:</p>
+            <ol>
+                <li><strong>Pengambilan Sinyal Mentah:</strong> Encoder menerima sinyal video/audio mentah (biasanya melalui SDI) yang berasal dari studio atau output IRD.</li>
+                <li><strong>Kompresi Temporal:</strong> Encoder menganalisis perbedaan antara frame gambar yang berurutan. Ia hanya mengirimkan informasi tentang perubahan yang terjadi antar frame, menghemat bandwidth secara drastis (inter-frame coding).</li>
+                <li><strong>Kompresi Spasial:</strong> Hasil akhir adalah aliran data digital terkompresi (Elementary Stream) untuk video dan audio, yang memiliki bitrate yang sudah diatur. Stream inilah yang kemudian dikirim ke MUX untuk digabungkan.</li>
+                <li><strong>Pembentukan Elementary System (ES)</strong> Hasil akhir adalah aliran data digital terkompresi (Elementary Stream) untuk video dan audio, yang memiliki bitrate yang sudah diatur. Stream inilah yang kemudian dikirim ke MUX untuk digabungkan.</li>
+            </ol>
+        </div>
+        <div class="button-container">
+            <a href="Materi.html" class="btn">Kembali</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+<footer class="footer">
+    <p>&copy; 2025 WEPTX - Website Edukasi Peralatan Transmisi</p>
+    <p>Made by Samuel Richie</p>
+</footer>
+</body>
+</html>

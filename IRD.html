@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE EDUKASI PERALATAN TRANSMISI</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="img/Logo WEPTX Putih.png" alt="Logo WEPTX">
+        </div>
+        <nav class="menu">
+            <a href="index.html">BERANDA</a>
+            <a href="Materi.html">PERALATAN</a>
+            <a href="Tentang.html">TENTANG</a>
+            <a href="Kontak.html">KONTAK</a>
+        </nav>
+        <div class="login-logo">
+            <img src="img/Logo TVRI.png" alt="Logo Kanan">
+        </div>
+    </header>
+
+    <section class="detail-materi">
+        <h1>IRD (Integrated Receiver Decoder)</h1>
+        <p class="Tagline">Mengambil, Mendekripsi, dan Mendekode feed program siaran.</p>
+
+        <div class="alat-visual">
+            <img src="img/IRD Harmonic Prostream.png" alt="Gambar IRD" class="gambar-alat">
+        </div>
+
+        <h2>Fungsi Utama</h2>
+        <div class="narasi-teks">
+            <p><strong>IRD (Integrated Receiver Decoder)</strong>adalah alat penting di bagian <em>head-end</em> ruang pemancar. Ia bertindak sebagai penerima utama bagi konten siaran yang datang dari luar, seperti melalui jaringan serat optik atau, yang paling umum, dari satelit (setelah sinyal diolah oleh LNB). Sinyal yang diterima IRD seringkali berada dalam format digital termodulasi dan terkompresi, bahkan mungkin terenkripsi (terkunci) oleh penyedia konten.</p>
+            <P>Fungsi utama IRD adalah mengembalikan sinyal ke bentuk aslinya. Alat ini menggabungkan fungsi <em>receiver</em> (penerima), <em>demodulator</em> (pelepas muatan gelombang), <em>dekriptor</em> (pembuka kunci enkripsi), dan <em>decoder</em> (pengurai kompresi) menjadi satu unit. Hasil akhir dari IRD adalah sinyal video dan audio mentah (baseband) yang bersih dan siap diolah oleh peralatan pemrosesan berikutnya.</P>
+        </div>
+
+        <h2>Prinsip Kerja (Cara Kerjanya)</h2>
+        <div class="narasi-teks">
+            <p>IRD bekerja secara berurutan untuk mengubah sinyal radio yang kompleks menjadi sinyal <em>baseband</em> (mentah):</p>
+            <ol>
+                <li><strong>Tuning & Demodulasi:</strong> IRD menerima sinyal termodulasi (misalnya L-Band dari LNB) dan melakukan tuning (penyetelan) pada frekuensi yang tepat. Kemudian, ia melakukan demodulasi untuk memisahkan aliran data digital (Transport Stream atau TS) dari gelombang pembawa radio.</li>
+                <li><strong>Deskripsi</strong> Jika siaran tersebut merupakan siaran berbayar atau privat, IRD menggunakan Conditional Access Module (CAM) untuk mendekripsi (membuka kunci) <em>Transport Stream</em> tersebut, sehingga data siaran dapat diakses.</li>
+                <li><strong>Dekoding & Penguraian:</strong> Data yang sudah dibuka kuncinya masih dalam bentuk terkompresi (MPEG-2 atau H.264/H.265). IRD memiliki <em>chip</em> dekoding yang sangat kuat untuk menguraikan kompresi tersebut dan mengubah data menjadi sinyal video dan audio dalam format mentah (SDI / baseband).</li>
+                <li><strong>Output Sinyal Mentah:</strong> Sinyal <em>baseband</em> yang dihasilkan ini kemudian menjadi sumber program yang akan di-encode dan di-mux kembali untuk dipancarkan oleh stasiun.</li>
+            </ol>
+        </div>
+
+        <h2>Poin Detail & Jenis-Jenis</h2>
+        <div class="narasi-teks">
+            <ul>
+                <li>Output SDI/IP: IRD modern biasanya menghasilkan output video mentah dalam format SDI (Serial Digital Interface) atau melalui protokol IP (Internet Protocol).</li>
+                <li>Konektor Input: IRD dapat menerima sinyal melalui Tuner Satelit (DVB-S/S2), Tuner Terestrial (DVB-T/T2), atau <em>Asynchronous Serial Interface</em> (ASI) dari jaringan kabel.</li>
+                <li>Merek Umum: Berdasarkan daftar peralatan Anda, IRD yang digunakan adalah Harmonic ProView 8100.</li>
+            </ul>
+        </div>
+        <div class="button-container">
+            <a href="Materi.html" class="btn">Kembali</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+<footer class="footer">
+    <p>&copy; 2025 WEPTX - Website Edukasi Peralatan Transmisi</p>
+    <p>Made by Samuel Richie</p>
+</footer>
+
+</body>
+</html>
